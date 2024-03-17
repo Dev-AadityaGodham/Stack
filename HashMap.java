@@ -50,3 +50,19 @@ public class Main
 		System.out.println(map);
 	}
 }
+/* output
+{Alandi=20, Chaina=100, Us=20, India=120}
+{Alandi=20, Chaina=100, Us=50, India=120}
+Key is present
+120
+null
+Alandi-20
+Chaina-100
+Us-50
+India-120
+Alandi-20 
+Chaina-100 
+Us-50 
+India-120 
+{Alandi=20, Us=50, India=120}
+*/
