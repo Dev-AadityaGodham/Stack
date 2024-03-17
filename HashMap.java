@@ -21,7 +21,7 @@ public class Main
 		System.out.println(map);
 		
 		//search 
-		//to find there is any key present or not ---------us .containsKey()
+		//to find there is any key present or not ---------use .containsKey()
 		if(map.containsKey("India")){
 		    System.out.println("Key is present");
 		}
