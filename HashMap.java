@@ -13,6 +13,7 @@ public class Main
 		//insertion opration -----use .put()
 		//we storing the name of contry and population
 		map.put("India",120);
+		map.put("Alandi",20);
 		map.put("Chaina",100);
 		map.put("Us",20);
 		System.out.println(map);
@@ -31,5 +32,21 @@ public class Main
 		//to get the value for the perticular key use .get("key");
 		System.out.println(map.get("India"));
 		System.out.println(map.get("Pune"));//------as there is not key named pune it will show null
+		
+// 		for(int val : arr){
+		    //for each loop 
+// 		}
+		
+		for(Map.Entry<String , Integer> e : map.entrySet()){ //-----this is the set of key value pair 
+		    System.out.println(e.getKey() +"-"+ e.getValue());
+		}
+		
+		Set<String> keys = map.keySet();//-----this is also a one way to print the keySet of the map
+		for(String key : keys){
+		    System.out.println(key + "-" + map.get(key)+ " ");
+		}
+		//to remove use .remove(key);
+		map.remove("Chaina");
+		System.out.println(map);
 	}
 }
