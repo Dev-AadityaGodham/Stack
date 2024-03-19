@@ -17,3 +17,24 @@ public class Main
 		System.out.println(counter);
 	}
 }
+
+/* chatgpt
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        int counter = 0;
+        StringBuilder str = new StringBuilder("Aaditya");
+        Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'));
+        
+        for (int i = 0; i < str.length(); i++) {
+            if (vowels.contains(str.charAt(i))) {
+                System.out.println("The alphabet is " + str.charAt(i));
+                counter++;
+            }
+        }
+        System.out.println("Number of vowels: " + counter);
+    }
+}
+
+*/
